@@ -415,7 +415,7 @@ button:hover{
 
 
     .cup-green {
-      width: 200px;
+      width: 145px;
   }
 
 
@@ -423,7 +423,6 @@ button:hover{
 
     display: flex;
     flex-direction: row;
-    border: solid 1px red;
     width: 40%;
     
   }
