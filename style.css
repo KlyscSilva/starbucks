@@ -81,6 +81,11 @@ button {
 
 }
 
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 button:hover{
     background-color: crimson;
 }
@@ -363,7 +368,8 @@ button:hover{
     .circulo {
 
       width: 100%;
-
+      clip-path: circle(360px at right 500px);
+      height: 90%;
     }
 
     .conteudo{
@@ -405,5 +411,30 @@ button:hover{
       color: #ffffff;
       font-size: 15px;
     }
+
+
+
+    .cup-green {
+      width: 200px;
+  }
+
+
+  .button-menu {
+
+    display: flex;
+    flex-direction: row;
+    border: solid 1px red;
+    width: 40%;
+    
+  }
+
+  .button-menu:hover {
+
+    transform: translateY(-20px);
+
+
+  }
+
+
 
   }
