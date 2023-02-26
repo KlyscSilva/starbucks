@@ -423,7 +423,7 @@ button:hover{
 
     display: flex;
     flex-direction: row;
-    width: 40%;
+    margin-top: 80px;
     
   }
 
